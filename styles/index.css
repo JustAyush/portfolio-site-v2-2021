@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
 @tailwind base;
 
 /* Write your own custom base styles here */
@@ -6,15 +9,48 @@
 @tailwind components;
 /* Stop purging. */
 
-html,
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
-  @apply bg-gray-50 dark:bg-gray-900;
+  @apply bg-bgColor text-text font-noto font-light;
 }
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+.container {
+  @apply px-10 md:px-16 lg:px-20 xl:px-4 mx-auto;
+  max-width: 1240px;
 }
+
+.small-text {
+  @apply text-textLight text-sm mb-2 font-light;
+}
+
+.footer-links {
+  @apply uppercase text-primary hover:underline text-sm font-bold;
+}
+
 
 /* Start purging... */
 @tailwind utilities;

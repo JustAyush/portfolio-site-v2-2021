@@ -1,14 +1,26 @@
-import Nav from '../components/nav'
+import {
+  Intro,
+  Background,
+  Skills,
+  Experience,
+  Projects,
+  Footer
+} from '../components';
 
 export default function IndexPage() {
   return (
-    <div>
-      <Nav />
-      <div className="py-20">
-        <h1 className="text-5xl text-center text-gray-700 dark:text-gray-100">
-          Next.js + Tailwind CSS 2.0
-        </h1>
-      </div>
+    <div className='container '>
+      <Intro />
+      <div className='h-24'></div>
+      <Background />
+      <div className='h-44'></div>
+      <Skills />
+      <div className='h-44'></div>
+      <Experience />
+      <div className='h-44'></div>
+      <Projects />
+      <div className='h-44'></div>
+      <Footer />
     </div>
   )
 }
