@@ -21,7 +21,7 @@ const projects = [
   },
   {
     name: 'Community Site for Education and Sports Development Group',
-    description: 'ESDG is a non-profit organization founded with an aim to educate children who lacks essentials tools for online classes. I volunteered to built a short and simple website for the organization.',
+    description: 'ESDG is a non-profit organization founded with an aim to educate children who lacks essentials tools for online classes. I volunteered to build a simple website for the organization.',
     link: 'https://esdgroup.vercel.app/',
     tools: ['Next.js', 'Tailwindcss']
   },
