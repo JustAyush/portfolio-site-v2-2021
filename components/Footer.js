@@ -11,10 +11,10 @@ const Footer = () => {
           2021
         </p>
         <div className='flex justify-center xl:justify-start mt-6 xl:mt-0'>
-          <a href="mailto:realayush9@gmail.com" className='footer-links'>Email</a>
-          <a href="mailto:realayush9@gmail.com" className='footer-links ml-12'>Instagram</a>
-          <a href="mailto:realayush9@gmail.com" className='footer-links ml-12'>Github</a>
-          <a href="mailto:realayush9@gmail.com" className='footer-links ml-12'>LinkedIn</a>
+          <a href="mailto:realayush99@gmail.com" className='footer-links'>Email</a>
+          <a href="https://www.instagram.com/ayush_bajra_/" target='_blank' className='footer-links ml-12'>Instagram</a>
+          <a href="https://github.com/JustAyush/" target='_blank' className='footer-links ml-12'>Github</a>
+          <a href="https://www.linkedin.com/in/ayush-bajracharya/" target='_blank' className='footer-links ml-12'>LinkedIn</a>
         </div>
       </div>
     </footer>
