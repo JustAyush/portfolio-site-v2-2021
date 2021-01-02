@@ -1,5 +1,8 @@
 module.exports = {
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  purge: {
+    enabled: false,
+    content: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'], 
+  },
   darkMode: 'media', // 'media' or 'class'
   theme: {
     fontFamily: {
@@ -15,6 +18,9 @@ module.exports = {
       },
       fontSize: {
         '4.5xl': '2.5rem'
+      },
+      lineHeight: {
+        '3rem': '3rem'
       }
     },
   },

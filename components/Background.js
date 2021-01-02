@@ -2,11 +2,11 @@ import React from 'react';
 
 const Background = () => {
   return (
-    <div className='flex -mx-8'>
-      <div className='w-1/3 px-8'>
-        <h5 className='font-bold text-primary text-base uppercase text-right'>Background</h5>
+    <div className='flex flex-wrap md:-mx-8'>
+      <div className='w-full md:w-1/3 md:px-8'>
+        <h5 className='font-bold text-primary text-base uppercase md:text-right mb-10 md:mb-0'>Background</h5>
       </div>
-      <div className='w-2/3 px-8 pl-12'>
+      <div className='w-full md:w-2/3 md:px-8 pl-6 md:pl-12'>
         <p className='text-base text-textLight font-light'>
         I'm currently an Engineer at Upstatement building things for the web with some awesome people. I recently graduated from Northeastern University after completing three awesome six-month co-ops at MullenLowe U.S., Starry, and Apple Music.
         <br/><br/>
