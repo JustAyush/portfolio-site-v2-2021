@@ -12,7 +12,8 @@ export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>My page title</title>
+        <title>Ayush Bajra | Software Developer</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className='container'>
