@@ -23,7 +23,9 @@ const Experience = () => {
             <p className='font-normal text-textLight font-mono text-sm hidden md:block'>{item.duration}</p>
           </div>
         )}
-        <h4 className='font-bold text-base md:text-lg mt-12 md:mt-16'>View My Resume</h4>
+        <h4 className='group font-bold text-base md:text-lg mt-12 md:mt-16 cursor-pointer hover:text-primary'>View My Resume
+          <img src='/images/arrow-right.svg' alt='arrow-right' className='w-7 mb-1 ml-4 inline-block'/>
+        </h4>
       </div>
     </div>
   );
