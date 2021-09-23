@@ -3,7 +3,7 @@ import React from "react";
 const experiences = [
   {
     company: "Diagonal Technologies Pvt. Ltd.",
-    position: "Software Developer",
+    position: "Web Application Developer",
     duration: "July 2021 - Present",
   },
   {
