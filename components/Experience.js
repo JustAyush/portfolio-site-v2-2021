@@ -2,14 +2,9 @@ import React from "react";
 
 const experiences = [
   {
-    company: "Diagonal Technologies Pvt. Ltd.",
-    position: "Web Application Developer",
-    duration: "July 2021 - Present",
-  },
-  {
     company: "Novelty Technology Pvt. Ltd.",
     position: "Software Developer",
-    duration: "June 2020 - June 2021",
+    duration: "June 2020 - Present",
   },
   {
     company: "FirstPaddle Pvt. Ltd.",

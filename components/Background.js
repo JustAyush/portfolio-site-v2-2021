@@ -11,8 +11,8 @@ const Background = () => {
       <div className="w-full md:w-2/3 md:px-8 pl-6 md:pl-12">
         <p className="text-base text-textLight font-light">
           I'm currently a Developer at{" "}
-          <span className="text-text">Diagonal Technologies</span>, a
-          service-based company based on Sankhamul, Lalitpur building for the
+          <a href='https://noveltytechnology.com/' target='_blank' className="text-text">Novelty Technology</a>, a
+          service-based company based on New Baneshwor, Kathmandu building for the
           web with some awesome people. I graduated with{" "}
           <span className="text-text">
             Bachelors in Electronics and Communication Engineering

@@ -1,13 +1,13 @@
 import React from "react";
 
 const projects = [
-  {
-    name: "List Info Business Solutions Dashboard",
-    description: `Dashboard application for the back office operation of a holiday home booking business. It consists of 
-      user, inventory management, employee ticket board, chat admin and other common back office operational features.`,
-    link: "https://drive.google.com/drive/folders/1_UmDA_uFW6_r44FDOoOrBXaT6evbCIA2?usp=sharing",
-    tools: ["React", "Chakra UI", "React Query", "React Hook Form"],
-  },
+  // {
+  //   name: "List Info Business Solutions Dashboard",
+  //   description: `Dashboard application for the back office operation of a holiday home booking business. It consists of 
+  //     user, inventory management, employee ticket board, chat admin and other common back office operational features.`,
+  //   link: "https://drive.google.com/drive/folders/1_UmDA_uFW6_r44FDOoOrBXaT6evbCIA2?usp=sharing",
+  //   tools: ["React", "Chakra UI", "React Query", "React Hook Form"],
+  // },
   {
     name: "Vitafy Health Dashboard",
     description: `Vitafy is a US healthcare marketplace connecting patients to high value providers. Vitafy Dashboard is a web platform
