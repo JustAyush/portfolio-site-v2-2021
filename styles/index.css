@@ -53,6 +53,23 @@ body {
   @apply uppercase text-primary hover:underline text-sm font-bold;
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  z-index: 1000;
+  letter-spacing: 0.5px;
+
+  @apply text-primary;
+}
+
 
 /* Start purging... */
 @tailwind utilities;
